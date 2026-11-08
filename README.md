@@ -54,6 +54,3 @@ go test ./kv/transaction/... -v               # Project 4: MVCC & transaction ha
 go test ./kv/server -run 4 -v                # Project 4: server integration tests
 ```
 
-## Acknowledgements
-
-This project is built on the [PingCAP Talent Plan](https://github.com/pingcap/talent-plan) (TinyKV) framework. The network simulation, test harness, and protocol definitions are from the Talent Plan; the Raft consensus logic, raftstore implementation, scheduler, and transaction system are my own.
